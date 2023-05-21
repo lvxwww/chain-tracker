@@ -1,0 +1,38 @@
+{
+  "name": "lxw0v0-chain-tracker",
+  "version": "1.0.1",
+  "description": "声明式链路埋点库",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config",
+    "dev": "rollup -cw"
+  },
+  "keywords": [
+    "chain-tracker",
+    "lxw"
+  ],
+  "author": "lxw",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-eslint": "^9.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^3.21.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "typescript": "^5.0.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "query-string": "^8.1.0"
+  }
+}

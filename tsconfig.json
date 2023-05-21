@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "noImplicitAny": false,
+    "allowJs": true,
+    "lib": ["es2016", "dom"],
+    "moduleResolution": "node"
+  },
+  "include": ["src/*.ts"]
+}

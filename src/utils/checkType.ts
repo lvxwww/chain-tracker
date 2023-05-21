@@ -1,6 +1,6 @@
 /*
  * @LastEditors: lvxw lv81567395@vip.qq.com
- * @LastEditTime: 2023-05-21 22:01:58
+ * @LastEditTime: 2023-05-21 23:33:47
  */
 import queryString from "query-string";
 
@@ -42,11 +42,13 @@ function cleanUrl(url: string) {
 // url 为空 则全匹配
 function checkUrl(url: any) {
   const currentUrl = location.pathname + location.hash;
+  //兼容hash的处理
+  const hashUrl = location.hash.slice(1);
   //如果是正则
   if (checkReg(url)) {
     return url.test(currentUrl);
   }
-  return !url || url === currentUrl;
+  return !url || url === currentUrl || url === hashUrl;
 }
 
 export { checkArray, checkReg, cleanUrl, compareUrl, checkUrl, checkProtocol };

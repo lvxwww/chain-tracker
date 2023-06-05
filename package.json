@@ -1,6 +1,6 @@
 {
-  "name": "lxw0v0-chain-tracker",
-  "version": "1.0.2",
+  "name": "lxw0v0-demo-chain-tracker",
+  "version": "1.0.1",
   "description": "声明式链路埋点库",
   "main": "lib/bundle.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "keywords": [
     "chain-tracker",
-    "lxw"
+    "test",
+    "demo"
   ],
   "author": "lxw",
   "license": "ISC",

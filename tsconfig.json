@@ -6,5 +6,6 @@
     "lib": ["es2016", "dom"],
     "moduleResolution": "node"
   },
-  "include": ["src/*.ts"]
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "query-string"]
 }
